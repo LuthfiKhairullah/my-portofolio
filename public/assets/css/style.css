@@ -1145,7 +1145,7 @@ section {
 }
 
 #clients .client-logo {
-  padding: 64px;
+  padding: 24px;
   display: flex;
   justify-content: center;
   align-items: center;

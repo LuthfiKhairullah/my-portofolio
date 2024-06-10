@@ -1,4 +1,7 @@
 "use client";
+
+import Image from "next/image";
+
 export default function Projects() {
   return (
     <>
@@ -18,13 +21,13 @@ export default function Projects() {
           </div>
 
           <div className="col-lg-4 background order-lg-2" data-aos="zoom-in">
-            <img src="assets/img/projects/project-1.png" className="img-fluid float-end" style={{maxHeight:200}} alt=""/>
+            <Image src="/assets/img/projects/project-1.png" className="img-fluid float-end" width={300} height={300} style={{maxHeight: 200, width: "unset"}} alt="..."/>
           </div>
         </div>
 
         <div className="row about-extra">
           <div className="col-lg-4" data-aos="fade-right">
-            <img src="assets/img/projects/project-2.png" className="img-fluid" style={{maxHeight:200}} alt=""/>
+            <Image src="/assets/img/projects/project-2.png" className="img-fluid" width={300} height={300} style={{maxHeight: 200, width: "unset"}} alt="..."/>
           </div>
           <div className="col-lg-8 pt-5 pt-lg-0" data-aos="fade-left">
             <h5 className="fw-bold">Dasboard Production Efficiency</h5>
@@ -50,13 +53,13 @@ export default function Projects() {
           </div>
 
           <div className="col-lg-4 background order-lg-2" data-aos="fade-left">
-            <img src="assets/img/projects/project-3.png" className="img-fluid float-end" style={{maxHeight:200}} alt=""/>
+            <Image src="/assets/img/projects/project-3.png" className="img-fluid float-end" width={300} height={300} style={{maxHeight: 200, width: "unset"}} alt="..."/>
           </div>
         </div>
 
         <div className="row about-extra">
           <div className="col-lg-4" data-aos="fade-right">
-            <img src="assets/img/projects/project-4.png" className="img-fluid" style={{maxHeight:200}} alt=""/>
+            <Image src="/assets/img/projects/project-1.png" className="img-fluid" width={300} height={300} style={{maxHeight: 200, width: "unset"}} alt="..."/>
           </div>
           <div className="col-lg-8 pt-5 pt-lg-0" data-aos="fade-left">
             <h5 className="fw-bold">Portal 5S</h5>

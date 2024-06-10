@@ -1,4 +1,7 @@
 "use client";
+
+import Image from "next/image";
+
 export default function Hero() {
   return (
     <>
@@ -6,11 +9,11 @@ export default function Hero() {
         <div className="container" data-aos="fade-up">
 
           <div className="hero-img text-center" data-aos="zoom-out" data-aos-delay="200">
-            <img src="/assets/img/me.png" alt="" className="img-fluid" style={{maxHeight: 300}}/>
+            <Image src="/assets/img/me.png" className="img-fluid" width={300} height={300} style={{maxHeight: 300, width: "unset"}} alt="..."/>
           </div>
 
           <div className="hero-info" data-aos="zoom-in" data-aos-delay="100">
-            <h2>Hello I'm Muhammad Luthfi Khairullah</h2>
+            <h2>Hello I&apos;m Muhammad Luthfi Khairullah</h2>
             <h3 className="text-white">A Passionate Web Developer</h3>
             <h5 className="text-white">
               Transforming ideas into reality with elegant and efficient web solutions.

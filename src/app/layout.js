@@ -1,4 +1,5 @@
 import { Inter } from "next/font/google";
+import Script from "next/script";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -16,18 +17,16 @@ export default function RootLayout({ children }) {
         <link href="/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet"/>
         <link href="/assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet"/>
         <link href="/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet"/>
-
         <link href="/assets/css/style.css" rel="stylesheet"/>
       </head>
       <body className={inter.className}>
         {children}
-        <script src="/assets/vendor/purecounter/purecounter_vanilla.js"></script>
-        <script src="/assets/vendor/aos/aos.js"></script>
-        <script src="/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-        <script src="/assets/vendor/glightbox/js/glightbox.min.js"></script>
-        <script src="/assets/vendor/swiper/swiper-bundle.min.js"></script>
-
-        <script src="/assets/js/main.js"></script>
+        <Script src="/assets/vendor/purecounter/purecounter_vanilla.js" strategy="beforeInteractive"/>
+        <Script src="/assets/vendor/aos/aos.js" strategy="beforeInteractive"/>
+        <Script src="/assets/vendor/bootstrap/js/bootstrap.bundle.min.js" strategy="beforeInteractive"/>
+        <Script src="/assets/vendor/glightbox/js/glightbox.min.js" strategy="beforeInteractive"/>
+        <Script src="/assets/vendor/swiper/swiper-bundle.min.js" strategy="beforeInteractive"/>
+        <Script src="/assets/js/main.js" strategy="beforeInteractive"/>
       </body>
     </html>
   );

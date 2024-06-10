@@ -1,4 +1,7 @@
 "use client";
+
+import Image from "next/image";
+
 export default function Certifications() {
   return (
     <>
@@ -14,7 +17,7 @@ export default function Certifications() {
                   <div className="row row-cols-lg-4 row-cols-md-2 row-cols-1 g-3">
                     <div className="col" data-aos="zoom-in" data-aos-delay="100">
                       <div className="card h-100 d-block text-center">
-                        <img src="/assets/img/certifications/cert-1.jpg" className="card-img-top" style={{maxHeight: 200, width: "unset", maxWidth: "100%"}} alt="..."/>
+                        <Image src="/assets/img/certifications/cert-1.jpg" className="card-img-top" width={100} height={300} style={{maxHeight: 200, width: "unset", maxWidth: "100%"}} alt="..."/>
                         <div className="text-dark">
                           <h5 className="card-title fw-bold">Sertifikat Cloud Practitioner Essentials (Belajar Dasar AWS Cloud)</h5>
                         </div>
@@ -22,7 +25,7 @@ export default function Certifications() {
                     </div>
                     <div className="col" data-aos="zoom-in" data-aos-delay="100">
                       <div className="card h-100 d-block text-center">
-                        <img src="/assets/img/certifications/cert-2.jpg" className="card-img-top" style={{maxHeight: 200, width: "unset", maxWidth: "100%"}} alt="..."/>
+                        <Image src="/assets/img/certifications/cert-2.jpg" className="card-img-top" width={100} height={300} style={{maxHeight: 200, width: "unset", maxWidth: "100%"}} alt="..."/>
                         <div className="text-dark">
                           <h5 className="card-title fw-bold">Sertifikat Memulai Pemrograman Dengan Kotlin</h5>
                         </div>
@@ -30,7 +33,7 @@ export default function Certifications() {
                     </div>
                     <div className="col" data-aos="zoom-in" data-aos-delay="100">
                       <div className="card h-100 d-block text-center">
-                        <img src="/assets/img/certifications/cert-3.jpg" className="card-img-top" style={{maxHeight: 200, width: "unset", maxWidth: "100%"}} alt="..."/>
+                        <Image src="/assets/img/certifications/cert-3.jpg" className="card-img-top" width={100} height={300} style={{maxHeight: 200, width: "unset", maxWidth: "100%"}} alt="..."/>
                         <div className="text-dark">
                           <h5 className="card-title fw-bold">Sertifikat Belajar Dasar Git dengan GitHub</h5>
                         </div>
@@ -38,7 +41,7 @@ export default function Certifications() {
                     </div>
                     <div className="col" data-aos="zoom-in" data-aos-delay="100">
                       <div className="card h-100 d-block text-center">
-                        <img src="/assets/img/certifications/cert-4.jpg" className="card-img-top" style={{maxHeight: 200, width: "unset", maxWidth: "100%"}} alt="..."/>
+                        <Image src="/assets/img/certifications/cert-4.jpg" className="card-img-top" width={100} height={300} style={{maxHeight: 200, width: "unset", maxWidth: "100%"}} alt="..."/>
                         <div className="text-dark">
                           <h5 className="card-title fw-bold">Sertifikat Belajar Dasar Pemrograman JavaScript</h5>
                         </div>
@@ -50,7 +53,7 @@ export default function Certifications() {
                   <div className="row row-cols-lg-4 row-cols-md-2 row-cols-1 g-3">
                     <div className="col">
                       <div className="card h-100 d-block text-center">
-                        <img src="/assets/img/certifications/cert-5.jpg" className="card-img-top" style={{maxHeight: 200, width: "unset", maxWidth: "100%"}} alt="..."/>
+                        <Image src="/assets/img/certifications/cert-5.jpg" className="card-img-top" width={100} height={300} style={{maxHeight: 200, width: "unset", maxWidth: "100%"}} alt="..."/>
                         <div className="text-dark">
                           <h5 className="card-title fw-bold">Sertifikat Belajar Dasar Pemrograman Web</h5>
                         </div>
@@ -58,7 +61,7 @@ export default function Certifications() {
                     </div>
                     <div className="col">
                       <div className="card h-100 d-block text-center">
-                        <img src="/assets/img/certifications/cert-6.jpg" className="card-img-top" style={{maxHeight: 200, width: "unset", maxWidth: "100%"}} alt="..."/>
+                        <Image src="/assets/img/certifications/cert-6.jpg" className="card-img-top" width={100} height={300} style={{maxHeight: 200, width: "unset", maxWidth: "100%"}} alt="..."/>
                         <div className="text-dark">
                           <h5 className="card-title fw-bold">Sertifikat Belajar Fundamental Front-End Web Development</h5>
                         </div>
@@ -66,7 +69,7 @@ export default function Certifications() {
                     </div>
                     <div className="col">
                       <div className="card h-100 d-block text-center">
-                        <img src="/assets/img/certifications/cert-7.jpg" className="card-img-top" style={{maxHeight: 200, width: "unset", maxWidth: "100%"}} alt="..."/>
+                        <Image src="/assets/img/certifications/cert-7.jpg" className="card-img-top" width={100} height={300} style={{maxHeight: 200, width: "unset", maxWidth: "100%"}} alt="..."/>
                         <div className="text-dark">
                           <h5 className="card-title fw-bold">Sertifikat Belajar Membuat Aplikasi Back-End untuk Pemula</h5>
                         </div>
@@ -74,7 +77,7 @@ export default function Certifications() {
                     </div>
                     <div className="col">
                       <div className="card h-100 d-block text-center">
-                        <img src="/assets/img/certifications/cert-8.jpg" className="card-img-top" style={{maxHeight: 200, width: "unset", maxWidth: "100%"}} alt="..."/>
+                        <Image src="/assets/img/certifications/cert-8.jpg" className="card-img-top" width={100} height={300} style={{maxHeight: 200, width: "unset", maxWidth: "100%"}} alt="..."/>
                         <div className="text-dark">
                           <h5 className="card-title fw-bold">Sertifikat Belajar Membuat Front-End Web untuk Pemula</h5>
                         </div>
@@ -86,7 +89,7 @@ export default function Certifications() {
                   <div className="row row-cols-lg-4 row-cols-md-2 row-cols-1 g-3">
                     <div className="col">
                       <div className="card h-100 d-block text-center">
-                        <img src="/assets/img/certifications/cert-9.jpg" className="card-img-top" style={{maxHeight: 200, width: "unset", maxWidth: "100%"}} alt="..."/>
+                        <Image src="/assets/img/certifications/cert-9.jpg" className="card-img-top" width={100} height={300} style={{maxHeight: 200, width: "unset", maxWidth: "100%"}} alt="..."/>
                         <div className="text-dark">
                           <h5 className="card-title fw-bold">Sertifikat Memulai Dasar Pemrograman untuk Menjadi Pengembang Software</h5>
                         </div>
@@ -94,7 +97,7 @@ export default function Certifications() {
                     </div>
                     <div className="col">
                       <div className="card h-100 d-block text-center">
-                        <img src="/assets/img/certifications/cert-10.jpg" className="card-img-top" style={{maxHeight: 200, width: "unset", maxWidth: "100%"}} alt="..."/>
+                        <Image src="/assets/img/certifications/cert-10.jpg" className="card-img-top" width={100} height={300} style={{maxHeight: 200, width: "unset", maxWidth: "100%"}} alt="..."/>
                         <div className="text-dark">
                           <h5 className="card-title fw-bold">Sertifikat Meniti Karier sebagai Software Developer</h5>
                         </div>
@@ -102,7 +105,7 @@ export default function Certifications() {
                     </div>
                     <div className="col">
                       <div className="card h-100 d-block text-center">
-                        <img src="/assets/img/certifications/cert-11.jpg" className="card-img-top" style={{maxHeight: 200, width: "unset", maxWidth: "100%"}} alt="..."/>
+                        <Image src="/assets/img/certifications/cert-11.jpg" className="card-img-top" width={100} height={300} style={{maxHeight: 200, width: "unset", maxWidth: "100%"}} alt="..."/>
                         <div className="text-dark">
                           <h5 className="card-title fw-bold">Sertifikat Menjadi Front-End Web Developer Expert</h5>
                         </div>
@@ -110,7 +113,7 @@ export default function Certifications() {
                     </div>
                     <div className="col">
                       <div className="card h-100 d-block text-center">
-                        <img src="/assets/img/certifications/cert-12.jpg" className="card-img-top" style={{maxHeight: 200, width: "unset", maxWidth: "100%"}} alt="..."/>
+                        <Image src="/assets/img/certifications/cert-12.jpg" className="card-img-top" width={100} height={300} style={{maxHeight: 200, width: "unset", maxWidth: "100%"}} alt="..."/>
                         <div className="text-dark">
                           <h5 className="card-title fw-bold">Sertifikat Pengenalan ke Logika Pemrograman (Pemrograman Logic 101)</h5>
                         </div>

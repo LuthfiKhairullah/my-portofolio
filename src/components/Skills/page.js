@@ -1,4 +1,7 @@
 "use client";
+
+import Image from "next/image";
+
 export default function Skills() {
   return (
     <>
@@ -14,73 +17,73 @@ export default function Skills() {
 
           <div className="col-lg-3 col-md-4 col-xs-6">
             <div className="client-logo">
-              <img src="assets/img/skills/html.png" className="img-fluid" alt=""/>
+              <Image src="/assets/img/skills/html.png" className="img-fluid" width={300} height={300} style={{maxHeight: "100%", maxWidth: "100%", width: "unset"}} alt="..."/>
             </div>
           </div>
 
           <div className="col-lg-3 col-md-4 col-xs-6">
             <div className="client-logo">
-              <img src="assets/img/skills/css.png" className="img-fluid" alt=""/>
+              <Image src="/assets/img/skills/css.png" className="img-fluid" width={300} height={300} style={{maxHeight: "100%", maxWidth: "100%", width: "unset"}} alt="..."/>
             </div>
           </div>
 
           <div className="col-lg-3 col-md-4 col-xs-6">
             <div className="client-logo">
-              <img src="assets/img/skills/javascript.png" className="img-fluid" alt=""/>
+              <Image src="/assets/img/skills/javascript.png" className="img-fluid" width={300} height={300} style={{maxHeight: "100%", maxWidth: "100%", width: "unset"}} alt="..."/>
             </div>
           </div>
 
           <div className="col-lg-3 col-md-4 col-xs-6">
             <div className="client-logo">
-              <img src="assets/img/skills/nodejs.png" className="img-fluid" alt=""/>
+              <Image src="/assets/img/skills/nodejs.png" className="img-fluid" width={300} height={300} style={{maxHeight: "100%", maxWidth: "100%", width: "unset"}} alt="..."/>
             </div>
           </div>
 
           <div className="col-lg-3 col-md-4 col-xs-6">
             <div className="client-logo">
-              <img src="assets/img/skills/expressjs.png" className="img-fluid" alt=""/>
+              <Image src="/assets/img/skills/expressjs.png" className="img-fluid" width={300} height={300} style={{maxHeight: "100%", maxWidth: "100%", width: "unset"}} alt="..."/>
             </div>
           </div>
 
           <div className="col-lg-3 col-md-4 col-xs-6">
             <div className="client-logo">
-              <img src="assets/img/skills/jquery.png" className="img-fluid" alt=""/>
+              <Image src="/assets/img/skills/jquery.png" className="img-fluid" width={300} height={300} style={{maxHeight: "100%", maxWidth: "100%", width: "unset"}} alt="..."/>
             </div>
           </div>
 
           <div className="col-lg-3 col-md-4 col-xs-6">
             <div className="client-logo">
-              <img src="assets/img/skills/mongodb.png" className="img-fluid" alt=""/>
+              <Image src="/assets/img/skills/mongodb.png" className="img-fluid" width={300} height={300} style={{maxHeight: "100%", maxWidth: "100%", width: "unset"}} alt="..."/>
             </div>
           </div>
 
           <div className="col-lg-3 col-md-4 col-xs-6">
             <div className="client-logo">
-              <img src="assets/img/skills/php.png" className="img-fluid" alt=""/>
+              <Image src="/assets/img/skills/php.png" className="img-fluid" width={300} height={300} style={{maxHeight: "100%", maxWidth: "100%", width: "unset"}} alt="..."/>
             </div>
           </div>
 
           <div className="col-lg-3 col-md-4 col-xs-6">
             <div className="client-logo">
-              <img src="assets/img/skills/codeigniter.png" className="img-fluid" alt=""/>
+              <Image src="/assets/img/skills/codeigniter.png" className="img-fluid" width={300} height={300} style={{maxHeight: "100%", maxWidth: "100%", width: "unset"}} alt="..."/>
             </div>
           </div>
 
           <div className="col-lg-3 col-md-4 col-xs-6">
             <div className="client-logo">
-              <img src="assets/img/skills/laravel.png" className="img-fluid" alt=""/>
+              <Image src="/assets/img/skills/laravel.png" className="img-fluid" width={300} height={300} style={{maxHeight: "100%", maxWidth: "100%", width: "unset"}} alt="..."/>
             </div>
           </div>
 
           <div className="col-lg-3 col-md-4 col-xs-6">
             <div className="client-logo">
-              <img src="assets/img/skills/mysql.png" className="img-fluid" alt=""/>
+              <Image src="/assets/img/skills/mysql.png" className="img-fluid" width={300} height={300} style={{maxHeight: "100%", maxWidth: "100%", width: "unset"}} alt="..."/>
             </div>
           </div>
 
           <div className="col-lg-3 col-md-4 col-xs-6">
             <div className="client-logo">
-              <img src="assets/img/skills/sqlserver.png" className="img-fluid" alt=""/>
+              <Image src="/assets/img/skills/sqlserver.png" className="img-fluid" width={300} height={300} style={{maxHeight: "100%", maxWidth: "100%", width: "unset"}} alt="..."/>
             </div>
           </div>
 
