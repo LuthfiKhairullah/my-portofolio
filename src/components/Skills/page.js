@@ -5,7 +5,7 @@ import Image from "next/image";
 export default function Skills() {
   return (
     <>
-      <section id="skill" className="section-bg">
+      <section id="skills" className="section-bg">
 
       <div className="container" id="clients" data-aos="fade-up">
 
